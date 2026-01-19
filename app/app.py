@@ -6,7 +6,7 @@ import numpy as np
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('E:\KULIAH\SMST 5\STKI\Pantai_karimun\data\labelling\label_data.csv')
+    df = pd.read_csv(r'../data/labelling/label_data.csv')
     return df
 
 df = load_data()
